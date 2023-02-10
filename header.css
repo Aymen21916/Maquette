@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+}
+
+.site_header {
+    width: 100%;
+    height: 8vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background: #000000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1vw 2vw #000000;
+    opacity: 1;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999999;
+}
+
+.logo {
+    grid-column: 3/4;
+    display: block;
+    width: 8vw;
+    height: 100%;
+    align-items: center;
+}
+
+.logo a img {
+    width: 8vw;
+    height: 7vh;
+    margin: auto;
+}
+
+.left_nav {
+    float: left;
+    grid-column: 5/11;
+    display: flex;
+    gap: 0.5vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right_nav {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.left_nav a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: left;
+    font: normal normal normal 1.25vw Neo Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.right_nav a img {
+    width: 2vw;
+    height: 2vh;
+}
+
+.left_nav a:hover {
+    text-decoration: none;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+    }
+    .site_header {
+        position: relative;
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        gap: 80%;
+    }
+    .icon {
+        display: inline-block;
+        cursor: pointer;
+    }
+    .site_header:hover .left_nav {
+        width: 100%;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-bottom: 10px;
+    }
+    .site_header:hover .left_nav a {
+        text-align: center;
+        padding: 5px;
+        font: normal normal normal 2.5vh Neo Sans Pro;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    .left_nav {
+        top: 8vh;
+        display: none;
+        position: absolute;
+        background: #000000 0% 0% no-repeat padding-box;
+        box-shadow: 0px 1vw 2vw #000000;
+        opacity: 1;
+        z-index: 999999;
+    }
+    .site_header:hover .right_nav a img {
+        width: 15px;
+        height: 15px;
+    }
+    .site_header:hover .left_nav a:hover {
+        color: blue;
+    }
+    .site_header:hover .right_nav a img:hover {
+        width: 25px;
+        height: 25px;
+        background-color: cyan;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}

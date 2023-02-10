@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90.512" height="70.722" viewBox="0 0 90.512 70.722">
+  <g id="Groupe_1005" data-name="Groupe 1005" transform="translate(0.75 0.75)">
+    <g id="Groupe_1003" data-name="Groupe 1003" transform="translate(60.269 20.179)">
+      <path id="Tracé_532" data-name="Tracé 532" d="M280.026,277.838c5.053,0,10.1-4.572,12.66-7.289a6.374,6.374,0,0,0,1.713-4.38V248.458c-10.9,2.286-14.373-2.973-14.373-2.973s-3.468,5.259-14.371,2.973V266.17a6.365,6.365,0,0,0,1.713,4.38C269.922,273.267,274.973,277.838,280.026,277.838Z" transform="translate(-265.655 -245.485)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Tracé_533" data-name="Tracé 533" d="M268.892,255.83l6.606,5.354,10.161-10.161" transform="translate(-262.407 -239.927)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g id="Groupe_1004" data-name="Groupe 1004" transform="translate(0 0)">
+      <path id="Tracé_534" data-name="Tracé 534" d="M308.216,272.18V283.41a.912.912,0,0,1-.912.912H238.473a.911.911,0,0,1-.912-.912V255.658" transform="translate(-233.576 -215.099)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Ligne_22" data-name="Ligne 22" x1="68.833" transform="translate(4.896 61.256)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Ligne_23" data-name="Ligne 23" x1="5.993" transform="translate(47.683 40.558)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Tracé_535" data-name="Tracé 535" d="M266.513,270.015h-25.78a5.163,5.163,0,0,1-5.161-5.161V242a.646.646,0,0,1,.647-.645h77.33a.645.645,0,0,1,.645.645v3.019" transform="translate(-235.572 -229.456)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="Tracé_536" data-name="Tracé 536" d="M246.531,247.307v-8.721a3.173,3.173,0,0,1,3.175-3.173h25.371a3.173,3.173,0,0,1,3.173,3.173v8.721" transform="translate(-224.575 -235.413)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <rect id="Rectangle_193" data-name="Rectangle 193" width="16.741" height="16.741" rx="1" transform="translate(30.941 32.188)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      <line id="Ligne_24" data-name="Ligne 24" y2="3.983" transform="translate(39.312 38.567)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

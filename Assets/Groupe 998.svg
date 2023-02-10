@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="94.183" height="62.523" viewBox="0 0 94.183 62.523">
+  <g id="Groupe_998" data-name="Groupe 998" transform="translate(0 0.75)">
+    <g id="Groupe_995" data-name="Groupe 995" transform="translate(64.69 0)">
+      <path id="Tracé_505" data-name="Tracé 505" d="M196.842,185.524c5.053,0,10.1-4.572,12.658-7.288a6.369,6.369,0,0,0,1.713-4.38V156.144c-10.9,2.286-14.371-2.975-14.371-2.975s-3.468,5.261-14.373,2.975v17.712a6.369,6.369,0,0,0,1.713,4.38C186.736,180.953,191.787,185.524,196.842,185.524Z" transform="translate(-182.469 -153.169)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Tracé_506" data-name="Tracé 506" d="M185.707,163.515l6.606,5.354,10.161-10.161" transform="translate(-179.22 -147.611)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g id="Groupe_997" data-name="Groupe 997" transform="translate(0 9.313)">
+      <g id="Groupe_996" data-name="Groupe 996">
+        <line id="Ligne_2" data-name="Ligne 2" x1="18.505" transform="translate(31.973 43.271)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Ligne_3" data-name="Ligne 3" x1="16.297" transform="translate(67.355 43.271)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Ligne_4" data-name="Ligne 4" y2="14.923" transform="translate(79.062 28.348)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Tracé_507" data-name="Tracé 507" d="M152.344,191.04V179.424a7.089,7.089,0,0,1,5.674-6.946l14.689-4.646h36.769" transform="translate(-148.007 -147.769)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Ligne_5" data-name="Ligne 5" x1="15.095" transform="translate(0 43.271)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Tracé_508" data-name="Tracé 508" d="M162.508,177.882l12.424-20.064h22.033" transform="translate(-137.809 -157.818)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Tracé_509" data-name="Tracé 509" d="M174.591,183.642a8.438,8.438,0,1,1-8.438-8.438A8.439,8.439,0,0,1,174.591,183.642Z" transform="translate(-142.619 -140.372)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <ellipse id="Ellipse_10" data-name="Ellipse 10" cx="8.439" cy="8.439" rx="8.439" ry="8.439" transform="translate(50.478 34.832)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+        <line id="Ligne_6" data-name="Ligne 6" y1="20.064" transform="translate(50.478)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+      </g>
+      <line id="Ligne_7" data-name="Ligne 7" x1="7.077" transform="translate(42.58 27.427)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

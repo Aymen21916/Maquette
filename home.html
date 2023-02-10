@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="actualite.css">
+        <link rel="stylesheet" href="entrepreuneur.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="presentation.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+                    
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="site_header">
+            <div class="logo"><a href="home.html"><img src="Assets/club_logo1.png" alt="LOGO"></a></div>
+            <div class="left_nav">
+              <a href="#about_us">Qui sommes-nous ?</a>
+              <a href="#services">Nos adhérents</a>
+              <a href="#news"> Nos actualités</a>
+              <a href="#contacts">Contacts</a>
+              <div class="right_nav">
+                <a href="#facebook"><img src="Assets/facebook.svg" alt="Facebook"></a></li>
+                <a href="#twitter"><img src="Assets/twitter.svg" alt="Twitter"></a></li> 
+                <a href="#instagram"><img src="Assets/instagram.svg" alt="Instagram"></a></li>
+                <a href="#linkedin"><img src="Assets/linkedin.svg" alt="Linkedin"></a></li>
+              </div>
+            </div>
+            <a herf="#" class="icon">
+              <i class="fa fa-bars"></i>
+            </a>
+      </div>
+      <div style="background-color: #fff; height: 60px;"></div>
+      <footer class="site_footer">
+            <div class="footer_top">
+                <div class="footer_logo">
+                    <a href="home.html">
+                        <img src="Assets/club_logo1.png" alt="LOGO">
+                    </a>
+                </div>
+                <div class="footer_nav">
+                    <p class="footer_txt">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                    nesciunt. Neque porro quisquam est, qui dolorem ipsum…</p>
+                    <div class="footer_left_nav">
+                        <a href="#about_us">Qui sommes-nous ?</a>
+                        <a href="#services">Nos adhérents</a>
+                        <a href="#news"> Nos actualités</a>
+                        <a href="#contacts">Contacts</a>
+                    </div>
+                    <div class="footer_right_nav">
+                        <a href="#facebook"><img src="Assets/facebook.svg" alt="Facebook"></a>
+                        <a href="#twitter"><img src="Assets/twitter.svg" alt="Twitter"></a>
+                        <a href="#instagram"><img src="Assets/instagram.svg" alt="Instagram"></a>
+                        <a href="#linkedin"><img src="Assets/linkedin.svg" alt="Linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="footer_copyright">
+                ©2021 CLUB VICTORY 86 - Mentions légales - Données personnelles - Réalisation
+                <img src="Assets/Groupe 348.svg" alt="ayalin">
+            </p>
+            <div class="footer_triangle_top_left"></div>
+        </footer>
+    </body>
+</html>

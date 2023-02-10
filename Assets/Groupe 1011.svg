@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76.494" height="83.604" viewBox="0 0 76.494 83.604">
+  <g id="Groupe_1011" data-name="Groupe 1011" transform="translate(0.75 0.75)">
+    <g id="Groupe_1007" data-name="Groupe 1007" transform="translate(46.251 42.232)">
+      <path id="Tracé_551" data-name="Tracé 551" d="M360.819,285.633c5.053,0,10.1-4.572,12.658-7.289a6.369,6.369,0,0,0,1.713-4.38V256.253c-10.9,2.286-14.371-2.975-14.371-2.975s-3.468,5.261-14.373,2.975v17.712a6.378,6.378,0,0,0,1.713,4.38C350.715,281.062,355.766,285.633,360.819,285.633Z" transform="translate(-346.446 -253.278)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Tracé_552" data-name="Tracé 552" d="M349.684,263.624l6.606,5.354,10.161-10.161" transform="translate(-343.197 -247.72)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+    <g id="Groupe_1010" data-name="Groupe 1010" transform="translate(0 0)">
+      <line id="Ligne_27" data-name="Ligne 27" y2="7.516" transform="translate(60.624 74.587)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Tracé_553" data-name="Tracé 553" d="M323.36,291.635V264.242a7.678,7.678,0,0,1,6.657-7.609l9.775-1.845,13.88,36.847,9.651-25.618" transform="translate(-323.36 -209.531)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Ligne_28" data-name="Ligne 28" y1="13.818" transform="translate(48.673 68.286)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Ligne_29" data-name="Ligne 29" y1="13.818" transform="translate(11.951 68.286)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Tracé_554" data-name="Tracé 554" d="M338.924,263.295l-3.717-9.129h13.236l-3.717,9.129Z" transform="translate(-311.472 -210.154)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Ligne_30" data-name="Ligne 30" x2="3.717" y2="10.54" transform="translate(33.255 53.14)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <line id="Ligne_31" data-name="Ligne 31" x1="4.08" y2="10.54" transform="translate(23.373 53.14)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      <g id="Groupe_1009" data-name="Groupe 1009" transform="translate(16.755)">
+        <g id="Groupe_1008" data-name="Groupe 1008" transform="translate(0 12.714)">
+          <path id="Tracé_555" data-name="Tracé 555" d="M358.837,238.544v10.8a14.139,14.139,0,0,1-4.109,9.967h0a13.332,13.332,0,0,1-9.452,3.933h0a13.333,13.333,0,0,1-9.476-3.955l0,0a14.1,14.1,0,0,1-4.073-9.911V238.544" transform="translate(-331.723 -238.544)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+        </g>
+        <path id="Tracé_556" data-name="Tracé 556" d="M347.7,237.046s-3.809,8.428-15.979,10.161" transform="translate(-331.723 -227.333)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Tracé_557" data-name="Tracé 557" d="M337.917,239.322s3.664,5.155,14.705,6.583" transform="translate(-325.508 -225.05)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Tracé_558" data-name="Tracé 558" d="M331.723,244.912c0-7.022,6.07-12.714,13.557-12.714s13.557,5.692,13.557,12.714" transform="translate(-331.723 -232.198)" fill="none" stroke="#000" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,380 @@
+.entrepreuneur {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+    background: #F7F7F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.entrepreuneur_heading {
+    text-align: center;
+    font: normal normal normal 55px/65px serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.entrepreuneur_subheading {
+    text-align: center;
+    font: normal normal normal 26px/36px serif;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+    padding-bottom: 30px;
+}
+
+.entrepreuneur_under_heading {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.entrepreuneur_under_heading_txt {
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    width: fit-content;
+}
+
+.first_txt {
+    text-align: left;
+    font: normal normal bold 16px/22px serif;
+    letter-spacing: 0px;
+    color: #DEAB00;
+}
+
+.second_txt {
+    text-align: left;
+    font: normal normal bold 16px/22px serif;
+    letter-spacing: 0px;
+    color: #404040;
+}
+
+.third_txt {
+    text-align: left;
+    font: normal normal normal 16px/22px serif;
+    letter-spacing: 0px;
+    color: #404040;
+}
+
+.entrepreuneur_under_heading_button_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.entrepreuneur_under_heading_button_1_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 235px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DEAB00;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 16px/22px serif;
+    letter-spacing: 0px;
+    color: #DEAB00;
+    margin-right: 40px;
+}
+
+.entrepreuneur_under_heading_button_1_button_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.entrepreuneur_under_heading_button_1_link {
+    display: flex;
+    color: #404040;
+    padding-right: 40px;
+}
+
+.entrepreuneur_under_heading_button_1_link p {
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px serif;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.entrepreuneur_under_heading_button_2 {
+    display: flex;
+    align-items: center;
+    width: 295px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    background: #F7F7F5 0% 0% no-repeat padding-box;
+    border: 1px solid #404040;
+    border-radius: 20px;
+    text-align: center;
+    font: normal normal normal 15px/22px serif;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.entrepreuneur_under_heading_button_2_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.entrepreuneur_select_section {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_box_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2E2E2;
+    border-radius: 6px;
+    opacity: 1;
+    width: max-content;
+    height: 30px;
+    text-align: center;
+    font: normal normal normal 15px/25px serif;
+    letter-spacing: 0px;
+    color: #404040;
+}
+
+.flex_box_button:hover {
+    background-color: #DEAB00;
+}
+
+.flex_box_button:active {
+    background-color: #DEAB00;
+}
+
+.entrepreuneur_cards_container {
+    width: 66%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 3%;
+    margin-left: 11%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.entrepreuneur_card {
+    margin-top: 1%;
+    width: 19%;
+    height: 300px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #00000014;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.entrepreuneur_card_image {
+    width: 100%;
+    height: 60%;
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 10px 10px 0px 0px;
+    opacity: 1;
+}
+
+.entrepreuneur_card_txt {
+    width: 80%;
+    height: 40%;
+}
+
+.entrepreuneur_card_txt_site {
+    text-align: left;
+    font: normal normal medium 13px/40px serif;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.entrepreuneur_card_txt_titre {
+    text-align: left;
+    font: normal normal medium 20px/24px serif;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.entrepreuneur_card_txt_en_savoir {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    text-decoration: none;
+    font: normal normal bold 13px/40px serif;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.entrepreuneur_card_txt_en_savoir_plus_logo {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.entrepreuneur_card_rejoignez {
+    margin-top: 1%;
+    width: 19%;
+    height: 300px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body a:hover {
+    text-decoration: none;
+}
+
+.entrepreuneur_card_rejoignez_txt:hover {
+    color: #DEAB00;
+}
+
+.entrepreuneur_card_rejoignez_circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #F7F7F5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 20px 20px #0000000F;
+    border: 1px solid #707070;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrepreuneur_card_rejoignez_txt {
+    margin: 15px;
+    text-align: center;
+    font: normal normal normal 14px/20px serif;
+    letter-spacing: 0px;
+    color: #404040;
+    opacity: 1;
+}
+
+.entrepreuneur_triangle_bottom_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 215px 215px 0;
+    transform: rotate(270deg);
+    border-color: transparent transparent black transparent;
+}
+
+@media screen and (max-width: 800px) {
+    .entrepreuneur {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    .entrepreuneur_heading {
+        font: normal normal normal 38px/42px serif;
+        padding-bottom: 10px;
+    }
+    .entrepreuneur_subheading {
+        font: normal normal normal 22px/30px serif;
+        padding-bottom: 20px;
+    }
+    .first_txt {
+        font: normal normal bold 14px/22px serif;
+    }
+    .second_txt {
+        font: normal normal bold 14px/22px serif;
+    }
+    .third_txt {
+        font: normal normal normal 14px/22px serif;
+    }
+    .entrepreuneur_under_heading {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .entrepreuneur_under_heading_button_1 {
+        width: 65%;
+        margin-left: 20px;
+    }
+    .entrepreuneur_select_section {
+        display: none;
+    }
+    .entrepreuneur_cards_container {
+        width: 95%;
+        margin-left: 10px;
+    }
+    .entrepreuneur_card {
+        margin-top: 1%;
+        width: 45%;
+        height: 270px;
+        gap: 0;
+        justify-content: space-between;
+    }
+    .entrepreuneur_card_image {
+        height: 50%;
+    }
+    .entrepreuneur_card_txt {
+        width: 95%;
+        height: max-content;
+    }
+    .entrepreuneur_card_txt_site {
+        font: normal normal medium 13px/14px serif;
+    }
+    .entrepreuneur_card_txt_titre {
+        font: normal normal medium 18px/22px serif;
+    }
+    .entrepreuneur_card_txt_en_savoir_plus_logo {
+        display: none;
+    }
+    .entrepreuneur_card_rejoignez {
+        margin-top: 1%;
+        width: 45%;
+        height: 270px;
+    }
+    .entrepreuneur_card_rejoignez_circle {
+        width: 105px;
+        height: 105px;
+    }
+    .entrepreuneur_triangle_bottom_right {
+        border-width: 0 105px 105px 0;
+    }
+}
