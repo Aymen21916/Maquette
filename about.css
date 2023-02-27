@@ -1,9 +1,10 @@
 .about_us_sup {
     width: 100%;
     height: 80vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
     position: relative;
-    z-index: 1;
 }
 
 .about_us {

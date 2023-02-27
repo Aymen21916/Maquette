@@ -1,84 +1,45 @@
-* {
-    box-sizing: border-box
-}
+* {box-sizing:border-box}
 
-.slider_container {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
+body {
+    margin: 0;
+    transform-origin: 0 0;
 }
 
 .slideshow-container {
-    max-width: 1000px;
+    background-image: url(Assets/back_slid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     margin: auto;
+    height: 105vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 15vh);
 }
 
 .mySlides {
+    height: 75vh;
     display: none;
+    grid-column: 2/12;
+    grid-row: 2/7;
 }
 
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-br {
-    display: block;
-}
-
-@keyframes fade {
-    from {
-        opacity: 0.7
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    .prev,
-    .next,
-    .text {
-        font-size: 11px
-    }
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 43%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: small;
-    font-size: 100px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+.prev, .next {
+  cursor: pointer;
+  grid-row: 3/5;
+  grid-column: 1/2;
+  color: white;
+  transition: 0.6s ease;
+  font: normal small-caps 15vh 'Neo Sans Pro';
+  align-self: center;
+  justify-self: flex-end;
+  text-decoration: none;
 }
 
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.dot_container {
-    position: absolute;
-    bottom: 50px;
-    left: 45%;
+  border-radius: 3px 0 0 3px;
+  grid-column: 12/13;
+  justify-self: flex-start;
 }
 
 .dot {
@@ -87,83 +48,302 @@ br {
     width: 40px;
     margin: 0 2px;
     background-color: #bbb;
-    border-radius: 5px;
-    display: inline-block;
     transition: background-color 0.6s ease;
 }
 
+.dot_container {
+    display: flex;
+    flex-direction: row;
+    grid-column: 6/8;
+    grid-row: 7/8;
+    align-self: center;
+}
+
+.div_sip {
+    grid-row: 7/8;
+    grid-column: 1/13;
+    height: 20vh;
+    width: 100%;
+    background-color: grey;
+    box-shadow: 0px -5px 5px 5px black;
+    z-index: 999;
+}
+
+.active, .dot:hover {
+  background-color: #C09448;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1000000000s;
+}
+
+@keyframes fade {
+  from {opacity: 1}
+  to {opacity: 1}
+}
+
+.slide1 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 15vh);
+    height: 75vh;
+}
+
 .person_image {
-    position: absolute;
-    bottom: 0;
-    right: 10rem;
-    width: 720px;
-    height: 636px;
-    z-index: 100;
+    grid-column: 8/11;
+    margin-top: 8vh;
+    grid-row: 1/5;
+    height: 95vh;
+    align-self: center;
+    justify-self: flex-end;
 }
 
-.person_name_div {
-    position: absolute;
-    right: 39.5%;
-    bottom: 28%;
-    width: 350px;
-}
-
-.person_name {
-    margin-bottom: 0;
-    font-family: sans-serif;
-    text-align: left;
-    letter-spacing: NaNpx;
-    color: #C09448;
-    text-transform: uppercase;
-    opacity: 1;
-    border-bottom: 1px solid white;
-}
-
-.person_job {
-    margin: 0;
-    font-family: sans-serif;
-    text-align: left;
-    letter-spacing: NaNpx;
-    color: #C09448;
-    text-transform: uppercase;
-    opacity: 1;
+.slide1 .person_name_div {
+    grid-row: 5/6;
+    grid-column: 5/7;
+    align-self: center;
+    justify-self: center;
+    width: 22.5vw;
 }
 
 .text_side_img {
-    position: absolute;
-    left: 15%;
-    top: 43%;
+    grid-column: 2/5;
+    grid-row:2/4;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-self: center;
+    margin-top: 4vh;
 }
-
+ 
 .club_victory {
-    margin: 0 150px 0 0;
-    text-align: right;
-    font: normal normal bold 21px/27px sans-serif;
-    font-family: sans-serif;
+    margin-bottom: -1vh;
+    margin-left: 3vw;
+    text-align: left;
+    font: normal normal bold 1.5vw 'Neo Sans Pro';
     letter-spacing: 0px;
     color: #C09448;
     text-transform: uppercase;
     opacity: 1;
+
 }
 
 .entrepreneurs {
-    margin: -20px;
-    text-align: right;
-    font: normal normal 300 65px/85px sans-serif;
-    letter-spacing: 0px;
+    margin: 0;
+    text-align: left;
+    font: normal normal 300 5vw 'Neo Sans Pro';
+    letter-spacing: -1px;
     color: #FFFFFF;
     opacity: 1;
 }
 
 .solidaires {
-    margin: 0 0 0 160px;
-    text-align: right;
-    font: normal normal 900 65px/85px sans-serif;
-    letter-spacing: 5px;
+    margin-left: 7vw;
+    margin-top: -1.5vh;
+    text-align: center;
+    font: normal normal 900 4vw 'Neo Sans Pro';
+    letter-spacing: 1px;
     color: #FFFFFF;
     opacity: 1;
+}
+
+.slide2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 15vh);
+    height: 75vh;
+}
+
+.slide2 .person_name_div {
+    grid-row: 1/2;
+    grid-column: 4/7;
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 35vw;
+}
+
+.person_name {
+    margin-bottom: 0.5vh;
+    text-align: left;
+    color: #C09448;
+    text-transform: uppercase;
+    opacity: 1;
+    font: normal normal normal 1.25vw/1.5vw 'Neo Sans Pro';
+}
+
+.person_name span {
+    font: normal normal bold 1.5vw/1.75vw 'Neo Sans Pro';
+}
+
+.person_job {
+    padding-top: 1vh;
+    border-top: 1px solid white;
+    text-align: left;
+    color: #C09448;
+    text-transform: uppercase;
+    opacity: 1;
+    font: normal normal normal 1vw/1vw 'Neo Sans Pro';
+}
+
+@media screen and (max-width: 900px) {
+    .slideshow-container {
+        display: flex;
+        flex-direction: column;
+        height: 134vh;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .mySlides {
+        height: auto;
+        display: none;
+    }
+    
+    .prev, .next {
+      display: none;
+    }
+
+    .dot_container {
+        margin-bottom: 3vh;
+    }
+
+    .slide1 {
+        margin-top: 25vh;
+        margin-bottom: 1vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .slide1 .person_image {
+        margin: 0;
+        height: 90vh;
+        width: 70vw;
+        margin-bottom: -7vh;    
+    }
+    
+    .slide1 .person_name_div {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .slide1 .person_name {
+        font: normal normal normal 3vw/3vw 'Neo Sans Pro';
+    }
+    
+    .slide1 .person_name span {
+        font: normal normal bold 3vw/3.5vw 'Neo Sans Pro';
+    }
+    
+    .slide1 .person_job {
+        font: normal normal normal 3vw/3vw 'Neo Sans Pro';
+    }
+    
+    .text_side_img {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        margin-bottom: 0;
+    }
+     
+    .club_victory {
+        margin-left: 5vw;
+        margin-bottom: -1.5vh;
+        font: normal normal bold 3vw 'Neo Sans Pro';
+    }
+        
+    .slide2 {
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .slide2 .person_image {
+        margin: 0;
+        height: 90vh;
+        width: 70vw;
+        margin-bottom: -7vh;
+        margin-top: 0;  
+    }
+    
+    .slide2 .person_name_div {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .slide2 .person_name {
+        font: normal normal normal 3vw/3vw 'Neo Sans Pro';
+    }
+    
+    .slide2 .person_name span {
+        font: normal normal bold 3vw/3.5vw 'Neo Sans Pro';
+    }
+    
+    .slide2 .person_job {
+        font: normal normal normal 2vw/2vw 'Neo Sans Pro';
+    }    
+}  
+
+@media screen and (max-width: 800px) {
+    .club_victory {
+        margin-left: 4vw;
+        margin-bottom: -1.2vh;
+        font: normal normal bold 3vw 'Neo Sans Pro';
+    }
+    .entrepreneurs {
+        margin: 0;
+        text-align: left;
+        font: normal normal 300 5vw 'Neo Sans Pro';
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .solidaires {
+        margin-left: 7vw;
+        margin-top: -0.7vh;
+        text-align: center;
+        font: normal normal 900 4vw 'Neo Sans Pro';
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+}  
+
+@media screen and (max-width: 600px) {
+    .club_victory {
+        margin-left: 4vw;
+        margin-bottom: -0.7vh;
+        font: normal normal bold 3vw 'Neo Sans Pro';
+    }
+    .entrepreneurs {
+        margin: 0;
+        text-align: left;
+        font: normal normal 300 5vw 'Neo Sans Pro';
+        letter-spacing: -1px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+    
+    .solidaires {
+        margin-left: 7vw;
+        margin-top: -0.7vh;
+        text-align: center;
+        font: normal normal 900 4vw 'Neo Sans Pro';
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+}  
+
+.shade-back {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 25px #00000014;
 }
